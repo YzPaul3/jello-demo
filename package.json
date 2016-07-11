@@ -8,7 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "fis-parser-marked": "0.0.6",
-    "fis-parser-node-sass": "^0.2.0",
     "fis-parser-utc": "0.0.2",
     "fis3-hook-amd": "~0.1.2",
     "fis3-jello": "~1.0.2",

@@ -21,13 +21,7 @@ fis.hook('amd', {
 
 // 设置 *.scss 配置配置项
 fis.match('*.scss', {
-  rExt: '.css',
-  parser: fis.plugin('node-sass', {
-    include_paths: [
-      './static/scss',
-      './components/compass-mixins'
-    ]
-  })
+  parser: null
 });
 
 // 不启用 less
